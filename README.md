@@ -1,7 +1,5 @@
 # linux-Caesar-cipher
 
-[toc]
-
 ## About/關於
 
 這是我第一次製作linux工具
