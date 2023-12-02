@@ -18,7 +18,7 @@ def caesar_cipher(text, shift, decrypt=False):
 def caesar_cipher_crack(text):
     for shift in range(1, 26):
         decrypted_text = caesar_cipher(text, shift, decrypt=True)
-        print(f"Shift {shift}: {decrypted_text}")
+        print(f"ROT {shift}: {decrypted_text}")
 
 def main():
     parser = argparse.ArgumentParser(description='Caesar Cipher Tool')
