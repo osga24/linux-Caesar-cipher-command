@@ -22,6 +22,7 @@ def caesar_cipher_crack(text):
 
 def main():
     parser = argparse.ArgumentParser(description='Caesar Cipher Tool')
+    parser = argparse.ArgumentParser(description='github: https://github.com/osga24/linux-Caesar-cipher-command')
     parser.add_argument('text', help='Text to process')
     parser.add_argument('shift', type=int, nargs='?', default=0, help='Shift value for encryption/decryption (default: 0)')
     parser.add_argument('-c', action='store_true', help='Encrypt the text')
